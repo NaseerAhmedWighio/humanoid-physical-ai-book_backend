@@ -1,0 +1,18 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "bs4>=0.0.2",
+    "fastembed>=0.3.1",
+    "dotenv>=0.9.9",
+    "markdown>=3.10",
+    "psycopg2>=2.9.11",
+    "qdrant-client>=1.16.1",
+    "trafilatura>=2.0.0",
+    "fastapi>=0.124.4",
+    "openai>=2.11.0",
+    "mai>=0.0.3",
+]
